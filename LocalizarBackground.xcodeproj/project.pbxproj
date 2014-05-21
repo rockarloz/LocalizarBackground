@@ -21,6 +21,7 @@
 		F389EC5E192D4B9B001FB68B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F389EC40192D4B9B001FB68B /* UIKit.framework */; };
 		F389EC66192D4B9B001FB68B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F389EC64192D4B9B001FB68B /* InfoPlist.strings */; };
 		F389EC68192D4B9B001FB68B /* LocalizarBackgroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F389EC67192D4B9B001FB68B /* LocalizarBackgroundTests.m */; };
+		F389EC72192D4BB6001FB68B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F389EC71192D4BB6001FB68B /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		F389EC63192D4B9B001FB68B /* LocalizarBackgroundTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LocalizarBackgroundTests-Info.plist"; sourceTree = "<group>"; };
 		F389EC65192D4B9B001FB68B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F389EC67192D4B9B001FB68B /* LocalizarBackgroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalizarBackgroundTests.m; sourceTree = "<group>"; };
+		F389EC71192D4BB6001FB68B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F389EC72192D4BB6001FB68B /* CoreLocation.framework in Frameworks */,
 				F389EC3F192D4B9B001FB68B /* CoreGraphics.framework in Frameworks */,
 				F389EC41192D4B9B001FB68B /* UIKit.framework in Frameworks */,
 				F389EC3D192D4B9B001FB68B /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		F389EC3B192D4B9B001FB68B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F389EC71192D4BB6001FB68B /* CoreLocation.framework */,
 				F389EC3C192D4B9B001FB68B /* Foundation.framework */,
 				F389EC3E192D4B9B001FB68B /* CoreGraphics.framework */,
 				F389EC40192D4B9B001FB68B /* UIKit.framework */,
