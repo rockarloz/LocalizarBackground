@@ -8,3 +8,5 @@ tiempo, pero cuando el usuario presiona el botno home o sucede algo en el sistem
 nuestra aplicacion  se pausa por lo cual no recibiremos la actualización de ubicación 
 si la aplicación no esta activa.
 Este proyecto tiene como finalidad ejemplificar esta situacion y como resolver esto.
+
+http://www.raywenderlich.com/29948/backgrounding-for-ios
